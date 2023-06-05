@@ -19,7 +19,12 @@ namespace WindowsFormsIntro
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Intro!");
+            label2.Text = "Kadir";
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
